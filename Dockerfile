@@ -4,4 +4,4 @@ WORKDIR /src
 
 RUN apt-get update && apt-get install -y curl wget
 
-ENTRYPOINT ["/bin/bash"]
+CMD ["/bin/bash"]
